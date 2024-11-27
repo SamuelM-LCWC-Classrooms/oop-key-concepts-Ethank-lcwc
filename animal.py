@@ -29,7 +29,7 @@ class Animal:
     def set_adopted(self, New_adopted):
         self.__adopted = New_adopted
     
-    def make_sound(noise):
+    def make_sound(self):
         return "This animal makes a sound"
 
 
@@ -44,7 +44,7 @@ class Dog(Animal):
     def set_breed(self, new_breed):
         self.__breed = new_breed
     
-    def make_sound(noise):
+    def make_sound(self):
         return "Woof!"
     
 
@@ -59,7 +59,7 @@ class Cat(Animal):
     def set_indoor_only(self, new_indoor):
         self.__indoor = new_indoor
 
-    def make_sound(noise):
+    def make_sound(self):
         return "Meow!"
 
 
